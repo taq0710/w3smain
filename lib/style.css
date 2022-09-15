@@ -1,0 +1,982 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    
+}
+.header{
+    height: 75px;
+    background-color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    padding: 0 16px 0 12px;
+}
+@font-face{
+    font-family: 'Source Sans Pro';
+    src: url(./font/source-sans-pro-v14-latin-600.woff2);
+}
+.nav-bar{
+    float: left;
+    
+}
+
+.nav-bar{
+    display: inline-block;
+}
+.right{
+    display: inline-block;
+}
+
+.nav-bar a{
+    color: black;
+    line-height: 75px;
+    padding: 27px 16px;
+}
+.nav-bar a:hover{
+    background-color:#04aa6d ;
+}
+.nav-bar .logo{
+    width: 30px;
+    float: left;
+    height: 21px;
+}
+.nav-bar .menu{
+    display: none;
+}
+.right{
+    display: inline-block;
+}
+
+.right{
+    float: right;
+    margin-right: 20px;
+}
+
+.right a{
+    color: black;
+    line-height: 75px;
+    padding: 8px 16px;
+    width: 60px;
+}
+.right .fa{
+    line-height: 75px!important;
+    padding: 0 2px;
+}
+.right .fa:hover{
+    color: #04aa6d;
+}
+
+.right .pro{
+    background-color: #282A35;
+    color: #fff;
+    border-radius: 25px;
+    margin: 0 15px 0 0;
+    padding: 8px 16px;
+}
+.right .pro:hover{
+    color: #fff;
+    background-color: #616161
+}
+
+.right .get{
+    background-color: #FFC0C7;
+    color: black;
+    border-radius: 25px;
+    margin: 0 15px 0 0;
+    padding: 8px 16px;
+}
+.right .get:hover{
+    background-color: #ffb3bb;
+    color: black;
+}
+.right .free{
+    background-color: #FFF4A3;
+    color: black;
+    border-radius: 25px;
+    margin: 0 15px 0 0;
+    padding: 8px 16px;
+}
+.right .free:hover{
+    background-color: #fff080;
+    color: black;
+}
+.right .login{
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 25px;
+}
+.list{
+    padding: 8px 0;
+    display: none;
+    align-items: center; /*căng giữa*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: auto;
+    color: black;
+}
+.openmenu {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    display: none;
+    background-color: #E7E9EB;
+    margin-top: 75px;
+}
+.openmenu a.close{
+    float: right;
+    color: black;
+}
+
+
+
+/*end header*/
+@font-face {
+    font-family: 'Segeo Ui';
+    src: url(./font/source-sans-pro-v14-latin-700.woff2);
+}
+.main{
+    width: auto;
+    padding: 0;
+    border-right: none;
+    
+}
+.slider1{
+    background-color: #282A35;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    height: auto;
+    width: auto;
+    
+    
+}
+.slider1 .slider1-in{
+    padding: 0 90px;
+    text-align: center;
+}
+h1{
+    display: block;
+    justify-content: center;
+    font-size: 70px;
+    margin: 2px 0px -20px;
+    color: white;
+}
+
+h3{
+    color: #FFC0C7;
+    font-weight: 700;
+    margin-top: 20px!important;
+    margin-bottom: 30px!important;
+    font-size: 23px;
+}
+form{ 
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+.example{
+    position: relative;
+    box-sizing: inherit;
+}
+input{
+    padding: 10px 10px 10px 25px;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-radius: 25px;
+    padding: 10px 10px 10px 25px;
+    background: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 1px solid #04AA6D;
+    outline: 0;
+    width: 80%;
+    float: left;
+    height: 25px;
+
+}
+.slider1 .slider1-in form button .search-btn:hover{
+    background-color: #059862;
+    color: white;
+}
+button{
+    border-radius: 25px;
+    padding: 10px;
+    background: #04AA6D;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-left: none;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 100px;
+    float: left;
+}
+h4{
+    margin: 30px 0px 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+}
+h4 a{
+    font-size: 23px;
+    color: white;  
+}
+.slider1 .slider1-in h4 a:hover{
+    color: #059862;
+}
+h1, h3, h4  {
+    font-family: 'Segeo Ui';
+    font-weight: 400;
+    margin: 20px 0;
+}
+/*html*/
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(./font/source-sans-pro-v14-latin-700.woff2);
+}
+@font-face{
+    font-family: 'code' ;
+    src: url(./font/Cerebri\ Sans\ Book.ttf);
+}
+.languageHTML{
+    display: flex;
+    justify-content: center;
+    background-color: #D9EEE1;
+    font-family: Source Sans Pro;
+    padding: 50px 100px ;
+    flex-wrap: wrap;
+}
+.content{
+    flex-basis: 45%;
+    text-align: center;
+    padding: 42px;
+}
+.content h1{
+    font-size: 100px;
+    font-weight: 700;
+    color: black;
+}
+.content .learn{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content .learn:hover{
+    background-color:#059862;
+    color: white;
+}
+.content .videotutor{
+    background-color:#FFF4A3;
+    color: black;
+    font-size: 19px;
+    margin: auto;
+    display:block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content .videotutor:hover{
+    background-color: #fff080;
+    color: black;
+}
+.content .HTMLREFER{
+    background-color: #282A35;
+    color: white;
+    font-size: 19px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content .HTMLREFER:hover{
+    background-color:#000;
+    color: white;
+}
+.content .buycerti{
+    background-color: #FFC0C7;
+    color: black;
+    font-size: 19px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content .buycerti:hover{
+    background-color:#ffb3bb;
+    color:black;
+}
+.code{
+    flex-basis: 35%;
+    padding: 42px;
+}
+.code .box{
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: #E7E9EB;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.code .box .code-box{
+    font-size: 15px;
+    border-left: 4px solid #04AA6D;
+    padding-left: 5px;
+    background-color: white;
+    font-family: code;
+    height: 300px;
+    width: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    word-wrap: break-word;
+}
+
+.code .box h3{
+    display: inline-flex;
+    font-weight: 400;
+    color: black;
+    margin: 10px 0  ;
+}
+.tryHTML{
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 150px;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+.tryHTML:hover{
+    background-color:#059862;
+    color: white;
+}
+
+
+/*css*/
+.learnCSS{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4A3;
+    font-family: Source Sans Pro;
+    padding: 50px 100px ;
+    flex-wrap: wrap;
+}
+.content1{
+    flex-basis: 45%;
+    text-align: center;
+    padding: 42px;
+}
+.content1 h1{
+    font-size: 100px;
+    font-weight: 700;
+    color: black;
+}
+
+.content1 .csslearn{
+    background-color:#04AA6D;
+    color: white;
+    font-size: 19px;
+    margin: auto;
+    display:block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content1 .csslearn:hover{
+    background-color:#059862;
+    color: white;
+}
+.content1 .cssrefer{
+    background-color: #282A35;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content1 .cssrefer:hover{
+    background-color:#000;
+    color: white;
+}
+.content1 .cssget{
+    background-color: #FFC0C7;
+    color: black;
+    font-size: 19px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content1 .cssget:hover{
+    background-color: #ffb3bb;
+    color:black;
+}
+
+.csscode{
+    flex-basis: 35%;
+    padding: 42px;
+}
+.csscode .cssbox{
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: #E7E9EB;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.csscode .cssbox .csscode-box{
+    font-size: 15px;
+    border-left: 4px solid #04AA6D;
+    padding-left: 5px;
+    background-color: white;
+    font-family: code;
+    height: 300px;
+    width: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    word-wrap: break-word;
+}
+
+.csscode .cssbox h3{
+    display: inline-flex;
+    font-weight: 400;
+    color: black;
+    margin: 10px 0  ;
+}
+.trycss{
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 150px;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+.trycss:hover{
+    background-color:#059862;
+    color: white;
+}
+/*py*/
+.learnpy{
+    display: flex;
+    justify-content: center;
+    background-color: #F3ECEA;
+    font-family: Source Sans Pro;
+    padding: 50px 100px ;
+    flex-wrap: wrap;
+}
+.content3{
+    flex-basis: 45%;
+    text-align: center;
+    padding: 42px;
+}
+.content3 h1{
+    font-size: 100px;
+    font-weight: 700;
+    color: black;
+}
+
+.content3 .pylearn{
+    background-color:#04AA6D;
+    color: white;
+    font-size: 19px;
+    margin: auto;
+    display:block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content3 .pylearn:hover{
+    background-color:#059862;
+    color: white;
+}
+.content3 .pyrefer{
+    background-color: #282A35;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content3 .pyrefer:hover{
+    background-color:#000;
+    color: white;
+}
+.content3 .pyget{
+    background-color: #FFC0C7;
+    color: black;
+    font-size: 19px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content3 .pyget:hover{
+    background-color:#ffb3bb;
+    color: black;
+}
+.pycode{
+    flex-basis: 35%;
+    padding: 42px;
+}
+.pycode .pybox{
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: #E7E9EB;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.pycode .pybox .pycode-box{
+    font-size: 15px;
+    border-left: 4px solid #04AA6D;
+    padding-left: 5px;
+    background-color: white;
+    font-family: code;
+    height: 300px;
+    width: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    word-wrap: break-word;
+}
+
+.pycode .pybox h3{
+    display: inline-flex;
+    font-weight: 400;
+    color: black;
+    margin: 10px 0  ;
+}
+.trypy{
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 150px;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+.trypy:hover{
+    background-color:#059862;
+    color: white;
+}
+/*sql*/
+.learnsql{
+    display: flex;
+    justify-content: center;
+    background-color: #96D4D4;
+    font-family: Source Sans Pro;
+    padding: 50px 100px ;
+    flex-wrap: wrap;
+}
+.content4{
+    flex-basis: 45%;
+    text-align: center;
+    padding: 42px;
+}
+.content4 h1{
+    font-size: 100px;
+    font-weight: 700;
+    color: black;
+}
+
+.content4 .sqllearn{
+    background-color:#04AA6D;
+    color: white;
+    font-size: 19px;
+    margin: auto;
+    display:block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content4 .sqllearn:hover{
+    background-color:#059862;
+    color: white;
+}
+.content4 .sqlrefer{
+    background-color: #282A35;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content4 .sqlrefer:hover{
+    background-color:#000;
+    color:white;
+}
+.content4 .sqlget{
+    background-color: #FFC0C7;
+    color: black;
+    font-size: 19px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content4 .sqlget:hover{
+    background-color:#ffb3bb;
+    color: black;
+}
+.sqlcode{
+    flex-basis: 35%;
+    padding: 42px;
+}
+.sqlcode .sqlbox{
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: #E7E9EB;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.sqlcode .sqlbox .sqlcode-box{
+    font-size: 15px;
+    border-left: 4px solid #04AA6D;
+    padding-left: 5px;
+    background-color: white;
+    font-family: code;
+    height: 300px;
+    width: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    word-wrap: break-word;
+}
+
+.sqlcode .sqlbox h3{
+    display: inline-flex;
+    font-weight: 400;
+    color: black;
+    margin: 10px 0  ;
+}
+.trysql{
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 150px;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+.trysql:hover{
+    background-color:#059862;
+    color: white
+}
+/*container*/
+.container{
+    padding: 64px 0;
+    background-color: #282A35;
+    font-family: Source Sans Pro;
+}
+.type1   {
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+}
+.type1 .col{
+    padding: 28px 42px;
+    flex-basis: 34%;
+}
+.type1 .learnphp{
+    background-color: #FFC0C7;
+    border-radius: 5px;
+    text-align: center;
+    padding: 24px;
+}
+.type1 .learnphp h2{
+    font-size: 45px;
+}
+.type1 .learnphp h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.type1 .phplearn{
+    font-size: 18px;
+    background-color: #282A35;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 16px;
+}
+
+.type1 .learnjquery{
+    background-color: #FFF4A3;
+    border-radius: 5px;
+    text-align: center;
+    padding: 24px;
+}
+.type1 .learnjquery h2{
+    font-size: 45px;
+}
+.type1 .learnjquery h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.type1 .jquerylearn{
+    font-size: 18px;
+    background-color: #282A35;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 16px;
+}
+
+.type1 .learnjava{
+    background-color: #F3ECEA;
+    border-radius: 5px;
+    text-align: center;
+    padding: 24px;
+}
+.type1 .learnjava h2{
+    font-size: 45px;
+}
+.type1 .learnjava h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.type1 .javalearn{
+    font-size: 18px;
+    background-color: #282A35;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 16px;
+}
+
+.type1 .learncadd{
+    background-color: #D9EEE1;
+    border-radius: 5px;
+    text-align: center;
+    padding: 24px;
+}
+.type1 .learncadd h2{
+    font-size: 45px;
+}
+.type1 .learncadd h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.type1 .caddlearn{
+    font-size: 18px;
+    background-color: #282A35;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 16px;
+}
+
+.type1 .learnw3css{
+    background-color: #96D4D4;
+    border-radius: 5px;
+    text-align: center;
+    padding: 24px;
+}
+.type1 .learnw3css h2{
+    font-size: 45px;
+}
+.type1 .learnw3css h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.type1 .w3csslearn{
+    font-size: 18px;
+    background-color: #282A35;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 16px;
+}
+
+.type1 .learnbootstrap{
+    background-color: #E7E9EB;
+    border-radius: 5px;
+    text-align: center;
+    padding: 24px;
+}
+.type1 .learnbootstrap h2{
+    font-size: 45px;
+}
+.type1 .learnbootstrap h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.type1 .bootstraplearn{
+    font-size: 18px;
+    background-color: #282A35;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 16px;
+}
+/*type2-----------------------------------------------------------*/
+.container2{
+    padding: 64px 0;
+    background-color: #282A35;
+    font-family: Source Sans Pro;
+}
+.col-2{
+    padding: 28px 42px;
+    flex-basis: 34%;
+}
+.type2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.type2 .learnc{
+    background-color: #FFC0C7;
+    border-radius: 5px;
+    text-align: center;
+    padding: 24px;
+    
+}   
+.type2 .learncsharp{
+    background-color: #FFf4a3;
+    border-radius: 5px;
+    text-align: center;
+    padding: 24px;
+}
+.col-2 h3{
+    color: black;
+    font-size: 30px;
+    margin: 10px 0  ;
+}
+/*type3--------------------------------------------------------------
+.container3{
+    padding: 64px 0;
+    background-color: #282A35;
+    font-family: Source Sans Pro;
+}
+.col-3{
+    padding: 12px 24px;
+    flex-basis: 19%;
+}
+.type3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}*/

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/style.css">
+    <link rel="stylesheet" href="./lib/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preload" href="./lib/font/fontawesome.woff2">
+    <link rel="preload" href="./lib/font/freckle-face-v9-latin-regular.woff2">
+    <link rel="preload" href="./lib/font/roboto-mono-v13-latin-500.woff2">
+    <link rel="preload" href="./lib/font/source-code-pro-v14-latin-regular.woff2">
+    <link rel="preload" href="./lib/font/source-sans-pro-v14-latin-600.woff2">
+    <link rel="preload" href="./lib/font/source-sans-pro-v14-latin-700.woff2">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="nav-bar" id="topnav">
+                <a class="logo" href=""><i class="fa fa-logo" ></i></a>
+                <a class="toturials" href="">Toturials
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <a class="references" href="">References
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <a class="exercises" href="">Excercises
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <a class="videos" href="">Videos</a>
+                <a class="menu" onclick="w3_open()" href="javascript:void(0);" id="navbtn_menu" title="Menu" >Menu <i class="fa fa-caret-down"></i><i class="fa fa-caret-up" style="display:none"></i></a>
+                  </a>
+            </div>
+            <div class="right">
+                <a class="adjust" href="">
+                    <i class="fa fa-adjust"></i>
+                    <!--<ul>
+                        <li><input type="checkbox"><a href="">Dark mode</a></li>
+                        <li><input type="checkbox"><a href="">Dark code</a></li>
+                    </ul>-->
+                </a>
+                <a class="search" href="">
+                    <i class="fa fa-search"></i>
+                </a>
+                <a class="earth" href="">
+                    <i class="fa fa-globe-asia"></i>
+                </a>
+                
+                <a class="pro" href="">Pro</a>
+                <a class="get" href="">Get Certified</a>
+                <a class="free" href="">Free Website</a>
+                <a class="login" id="#loginactioncontainer" href="">Login</a>
+                
+            </div>
+            <div id="myAccordion" class="openmenu"  >
+                <a href="javascript:void(0)" onclick="w3_close()" class="close" ><i class="fa fa-times"></i></a><br>
+                <div class="menulist">
+                  <a class="list" href="">Tutorials <i class="fa fa-caret-down"></i></a>
+                  <a class="list" href="">References <i class="fa fa-caret-down"></i></a>
+                  <a class="list" href="">Exercises <i class="fa fa-caret-down"></i></a>
+                  <a class="list" href="" target="_blank">Get Certified</a>
+                  <a class="list" href="" target="_blank" >Spaces</a>
+                  <a class="list" target="_blank" href="" >Videos</a>
+                  <a class="list" href="">Pro</a>
+
+              
+                </div>
+              </div>
+        
+        </div>
+    <div class="main">
+        <div class="slider1">
+            <div class="slider1-in">
+                <h1>Learn to Code</h1>
+                <h3>With the world's largest web developer site.</h2>
+                <form class="example" action="">
+                    <input type="text" placeholder="Search our tutorials, e.g. HTML">
+                    <button class="search-btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+                <h4>
+                    <a href="">Not Sure Where To Begin?</a>
+                </h4>
+            </div>
+        </div>
+        <div class="languageHTML">
+            <div class="content">
+                <h1>HTML</h1>
+                <p class="building">The language for building web pages</p><br>
+                <a class="learn" href="">Learn HTML</a><br>
+                <a class="videotutor" href="">Video Tutorial</a><br>
+                <a class="HTMLREFER" href="">HTML Reference</a><br>
+                <a class="buycerti" href="">Buy Certificte</a><br>
+                
+            </div>
+            <div class="code" >
+                <div class="box" >
+                 <h3>HTML Example:</h3>
+                 <div class="code-box" >
+              <span class="tagnamecolor" style="color:brown">
+                <span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE
+                <span class="attributecolor" style="color:red"> html</span>
+                <span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html
+              <span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>title
+              <span class="tagcolor" style="color:mediumblue">&gt;</span></span>HTML Tutorial
+              <span class="tagnamecolor" style="color:brown">
+                <span class="tagcolor" style="color:mediumblue">&lt;</span>/title
+                <span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body
+              <span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1
+              <span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a heading
+              <span class="tagnamecolor" style="color:brown">
+                <span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p
+              <span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a paragraph.
+              <span class="tagnamecolor" style="color:brown">
+                <span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body
+              <span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+              <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html
+              <span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+                 </div>
+                 <a href="" target="_blank" class="tryHTML">Try it Yourself</a>
+                </div>
+               </div>
+        </div>
+        <div class="learnCSS">
+            <div class="content1">
+                <h1>CSS</h1>
+                <p class="slogan1">The language for the styling web pages</p><br>
+                <a class="csslearn" href="">Learn CSS</a><br>
+                <a class="cssrefer" href="">CSS Reference</a><br>
+                <a class="cssget" href="">Get Certified</a>
+            </div>
+            <div class="csscode" style="padding:3%">
+                <div class="cssbox" style="padding:16px;">
+                <h3>CSS Example:</h3>
+                <div class="csscode-box">
+                    <span class="cssselectorcolor" style="color:brown">
+              body <span class="" style="color:black">{</span>
+                <span class="csspropertycolor" style="color:red"><br>
+              &nbsp; background-color<span class="" style="color:mediumblue">
+                <span class="cssdelimitercolor" style="color:black">:</span> lightblue
+                <span class="cssdelimitercolor" style="color:black">;</span></span><br></span>
+                <span class="cssdelimitercolor" style="color:black">}</span><br><br>
+              h1 
+              <span class="" style="color:black">{</span>
+                <span class="csspropertycolor" style="color:red"><br>
+              &nbsp; color
+              <span class="" style="color:mediumblue">
+                <span class="cssdelimitercolor" style="color:black">:</span> white
+                <span class="cssdelimitercolor" style="color:black">;</span></span><br>
+              &nbsp; text-align
+              <span class="" style="color:mediumblue">
+                <span class="cssdelimitercolor" style="color:black">:</span> center
+                <span class="cssdelimitercolor" style="color:black">;</span></span><br></span>
+                <span class="cssdelimitercolor" style="color:black">}</span><br><br>p 
+                <span class="cssdelimitercolor" style="color:black">{</span>
+                    <span class="csspropertycolor" style="color:red"><br>&nbsp; font-family
+                        <span class="" style="color:mediumblue">
+                            <span class="cssdelimitercolor" style="color:black">:</span> verdana
+                            <span class="cssdelimitercolor" style="color:black">;</span></span><br></span>
+                            <span class="cssdelimitercolor" style="color:black">}</span></span></div>
+                <a href="" target="_blank" class="trycss">Try it Yourself</a>
+                </div>
+               </div>
+            </div>
+        </div>
+        <div class="learnpy">
+            <div class="content3">
+                <h1>Python</h1>
+                <p class="slogan3">A popular progamming language</p><br>
+                <a class="pylearn" href="">Learn Python</a><br>
+                <a class="pyrefer" href="">Python Reference</a><br>
+                <a class="pyget" href="">Get Certified</a><br>
+            </div>
+            <div class="pycode" style="padding:3%">
+                <div class="pybox" style="padding:16px;">
+                <h3>Python Example:</h3>
+                <div class="pycode-box" style="height:210px">
+                    <span class="jscolor" style="color:black"><span class="jsnumbercolor" style="color:red">
+              </span>  
+                    <span class="jskeywordcolor" style="color:mediumblue">if</span> 
+                    <span class="jsnumbercolor" style="color:red">5</span> &gt; 
+                    <span class="jsnumbercolor" style="color:red">2</span>:<br>&nbsp; print(
+                        <span class="jsstringcolor" style="color:brown">"Five is greater than two!"</span>)
+                        <span class="jsnumbercolor" style="color:red">
+              </span> 
+              </span>
+            </div>
+                <a href="" target="_blank" class="trypy">Try it Yourself</a>
+                </div>
+               </div>
+        </div>
+        <div class="learnsql">
+            <div class="content4">
+                <h1>SQL</h1>
+                <p class="slogan4">A language for accessing databases</p><br>
+                <a class="sqllearn" href="">Learn SQL</a><br>
+                <a class="sqlrefer" href="">SQL Reference</a><br>
+                <a class="sqlget" href="">Get Certified</a><br>
+            </div>
+            <div class="sqlcode" style="padding:3%">
+                <div class="sqlbox" style="padding:16px;">
+                <h3>SQL Example:</h3>
+                <div class="sqlcode-box" style="height:210px">
+                    <span class="sqlcolor" style="color:black">
+                        <span class="sqlnumbercolor" >
+              </span>   
+              <span class="sqlkeywordcolor" style="color:mediumblue">SELECT</span> * 
+              <span class="sqlkeywordcolor" style="color:mediumblue">FROM</span> Customers<br>
+              <span class="sqlnumbercolor" >
+              </span>   
+              <span class="sqlkeywordcolor" style="color:mediumblue">WHERE</span> Country=
+              <span class="sqlstringcolor" style="color:brown">'Mexico'</span>;
+              <span class="sqlnumbercolor" >
+              </span>  
+            </span>
+            </div>
+                <a href="" target="_blank" class="trysql">Try it Yourself</a>
+                </div>
+               </div>
+        </div>
+        <div class="container">
+            <div class="type1">
+                <div class="col">
+                    <div class="learnphp">
+                        <h2>PHP</h2><br>
+                        <h5>A web sever programming language</h5><br><br>
+                        <a class="phplearn" href="">Learn PHP</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="learnjquery">
+                        <h2>jQuery</h2><br>
+                        <h5>A JS library for developing web pages</h5><br><br>
+                        <a class="jquerylearn" href="">Learn Jquery</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="learnjava">
+                        <h2>Java</h2><br>
+                        <h5>A programming language</h5><br><br>
+                        <a class="javalearn" href="">Learn Java</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="learncadd">
+                        <h2>C++</h2><br>
+                        <h5>A programming language</h5><br><br>
+                        <a class="caddlearn" href="">Learn C++</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="learnw3css">
+                        <h2>W3.CSS</h2><br>
+                        <h5>A CSS framework for faster and better responsive web pages</h5><br><br>
+                        <a class="w3csslearn" href="">Learn W3.CSS</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="learnbootstrap">
+                        <h2>Bootstrap</h2><br>
+                        <h5>A CSS framework for designing better web pages</h5><br><br>
+                        <a class="bootstraplearn" href="">Learn Bootstrap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container2">
+        <div class="type2">
+            <div class="col-2">
+                <div class="learnc">
+                <h3>C</h3>
+            </div>
+        </div>
+            <div class="col-2">
+                <div class="learncsharp" id="">
+                    <h3>C#</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="container3">
+        <div class="type3">
+            <div class="col-3">
+                <div class="learnr">
+                    <h3>R</h3>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="learnkotlin">
+                    <h3>Kotlin</h3>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="learnnodejs">
+                    <h3>NodeJs</h3>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="learnreact">
+                    <h3>React</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnjson">
+                    <h3>Json</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnangulajs">
+                    <h3>Angularjs</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnmysql">
+                    <h3>MySql</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnxml">
+                    <h3>XML</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnsass">
+                    <h3>SASS</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnicon">
+                    <h3>Icons</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnrwd">
+                    <h3>RWD</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learngraphics">
+                    <h3>Graphics</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnsgv">
+                    <h3>GSV</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learncanvas">
+                    <h3>Canvas</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnraspberrypi">
+                    <h3>Raspberry Pi</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learncybersecurity">
+                    <h3>Cyber Security</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learncolors">
+                    <h3>Colors</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learngit">
+                    <h3>Git</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnmatplotlib">
+                    <h3>Matplotlib</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnnumpy">
+                    <h3>Numpy</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnpandas">
+                    <h3>Pandas</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnscipy">
+                    <h3>SciPy</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnaps">
+                    <h3>Naps</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnaccessibility">
+                    <h3>Accessibility</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnappml">
+                    <h3>AppMl</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learngo">
+                    <h3>Go</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learntypescript">
+                    <h3>TypeScript</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="django">
+                    <h3>Django</h3>
+                </div></div>
+            <!--<div class="col-3">
+                <div class="learnexcel">
+                    <h3>Excel</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learngooglesheets">
+                    <h3>GoogleSheets</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnmachinelearning">
+                    <h3>Machinelearning</h3>
+                </div></div>
+            <div class="col-3">
+                <div class="learnartificialintelligence">
+                    <h3>Artificialintelligence</h3>
+                </div></div>
+            <div class="col-3"><div class="learnstatistics"></div></div>
+            <div class="col-3"><div class="learndata"></div></div>-->
+        </div>
+    </div>
+    </div>
+
+    </header>
+    <script>
+        function w3_open() {
+            var x = document.getElementById("myAccordion");
+            if (x.style.display === 'block') {
+                x.style.display = 'none';
+                if (document.getElementById("navbtn_menu")) {
+                    document.getElementById("navbtn_menu").getElementsByTagName("i")[0].style.display = "inline";
+                    document.getElementById("navbtn_menu").getElementsByTagName("i")[1].style.display = "none";
+                }
+            } else {
+                x.style.display = 'block';
+                if (document.getElementById("navbtn_menu")) {
+                    document.getElementById("navbtn_menu").getElementsByTagName("i")[0].style.display = "none";
+                    document.getElementById("navbtn_menu").getElementsByTagName("i")[1].style.display = "inline";
+                }
+            }
+        }
+        
+        
+    </script>
+</body>
+</html>

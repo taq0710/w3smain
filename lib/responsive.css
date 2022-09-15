@@ -1,0 +1,77 @@
+@media screen and (max-width: 1301px){
+    .right a.pro{
+        display: none;
+    }
+    .right a.get{
+        display: none;
+    }
+}
+@media screen and (max-width: 1140px) {
+    .header{
+        font-size: 17px;
+    }
+    .nav-bar a.videos{
+        display: none;
+    }
+    .right{
+        display: inline-block;
+    }   
+    
+}
+
+@media screen and (max-width:896px) {
+    .nav-bar a:not(:first-child) {display: none;}
+    .nav-bar a.menu {
+      float: left;
+      display: block;
+      line-height: 21px;
+    }
+    .right a.login{
+        display: inline-block;
+        line-height: 1;
+        width: 40px; 
+    }   
+    .right a.free{
+        display: none;
+    }  
+    .container .type1 .col{
+        float: left;
+        width: 100%;
+    }
+    .container .type1 .col .learnphp{
+        width: 90%;
+    }
+    .container .type1 .col .learnjquery{
+        width: 90%;
+    }
+    .container .type1 .col .learnjava{
+        width: 90%;
+    }
+    .container .type1 .col .learncadd{
+        width: 90%;
+    }
+    .container .type1 .col .learnw3css{
+        width: 90%;
+    }
+    .container .type1 .col .learnbootstrap{
+        width: 90%;
+    }
+    .container2 .type2 .col-2 .learnc{
+        width: 90%;
+    }
+    .container2 .type2 .col-2 .learncsharp{
+        width: 90%;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .right a.adjust{
+        display: none;
+    }
+}
+@media screen and(max-width: 414px) {
+    .right a.login{
+        font-size: 20px;
+    }
+
+}
